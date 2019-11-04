@@ -4,42 +4,85 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
     <title>Eric Bonnaire</title>
+    <div id="nav">
+        <ul >
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 </head>
 <body>
 
 
-<ul id="nav">
-    <li class="btn-nav"><a href="#">Accueil</a></li>
-    <li class="btn-nav"><a href="#apropos">A propos</a></li>
-    <li class="btn-nav"><a href="#projets">Projets</a></li>
-    <li class="btn-nav"><a href="#cv">CV</a></li>
-    <li class="btn-nav"><a href="#contact">Contact</a></li>
-</ul>
 
 
-<h1 class="titre">
+
+
+<h1 class="titre" >
     Eric BONNAIRE
 </h1>
 
-<h2 class="titre" id="apropos">
-    A propos de moi
-</h2>
+<div>
+    <h2 class="titre" id="apropos">
+        A propos de moi
+    </h2>
+</div>
 
-<h2 class="titre" id="projets">
-    Projets
-</h2>
 
-<h2 class="titre" id="cv">
-    CV
-</h2>
+<div>
+    <h2 class="titre" id="projets">
+        Projets
+    </h2>
+</div>
+
+
+<div>
+    <h2 class="titre" id="cv">
+        CV
+    </h2>
+</div>
+
 
 <h2 class="titre" id="">
     Parcours professionnel
 </h2>
 
-<h2 class="titre" id="contact">
-    Contact
-</h2>
+<div>
+    <h2 class="titre" id="contact">
+        Contact
+    </h2>
+
+    <form method="post" enctype="text/plain" action="mailto:eric.b1311@gmail.com">
+        <pre>
+            <div>
+            <label> Nom : </label>
+            <input type="text" name="name" >
+        </div>
+        <div>
+            <label> Prenom : </label>
+            <input type="text">
+        </div>
+        <div>
+            <label> Adresse mail : </label>
+            <input type="text">
+        </div>
+        <div>
+            <label> Message : </label>
+            <textarea></textarea>
+        </div>
+
+        <INPUT TYPE=SUBMIT VALUE=Envoyer>
+        <INPUT TYPE=RESET VALUE=Effacer>
+        </pre>
+
+
+    </form>
+
+</div>
+
 
 </body>
 </html>
