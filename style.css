@@ -10,9 +10,13 @@ html{
 
 h1{
     padding: 5%;
-
+    font-size: 200%;
 }
 
+h2{
+    margin: 10% 0 5% 0;
+    font-size: 150%;
+}
 
 nav{
     position: fixed;
@@ -20,9 +24,9 @@ nav{
 }
 
 nav .blurrer{
-    margin-left: -8px;
-    margin-top: -22px;
-    height: 115%;
+    margin-left: -0.5%;
+    margin-top: -3.5%;
+    height: 175%;
     width: 100%;
     -webkit-backdrop-filter: blur(4px);
     position: absolute;
@@ -34,10 +38,9 @@ nav .blurrer{
 
 nav ul {
     display: table;
-    height: 115%;
     width: 100%;
     margin-left: -8px;
-    margin-top: -22px;
+    margin-top: -30px;
     padding: 0;
 
     box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
@@ -58,12 +61,8 @@ nav ul li a{
     color: whitesmoke;
     text-decoration: none;
     padding: 8px 8px 17px 8px;
-
     text-shadow: 0 1px 0 rgb(0, 0, 0);
-
     transition: all .2s .1s;
-
-
 }
 
 
@@ -84,10 +83,16 @@ nav ul li a:active{
 button {
     display: block;
     margin: auto;
-    padding: 15px;
-    font-size: 20px;
+    padding: 1% 3% ;
+    font-size: 30px;
     border-radius: 30px;
-    border-color: whitesmoke;
+    background-color: cadetblue;
+    border-style: none;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -101,37 +106,34 @@ button {
     border-radius: 100%;
 }
 
+.moi {
+    font-size: xx-large;
+}
+
+.blank{
+    padding: 1%;
+}
+
+
+
 
 @media screen and (max-width: 500px)  {
 
     .titre {
-        text-align: center;
-
+        font-size: 100%;
     }
 
     nav ul li a{
-        display: block;
-        text-align: center;
-        color: whitesmoke;
-        text-decoration: none;
-        padding: 8px 8px 17px 8px;
-
-        text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
-
-        transition: all .2s .1s;
-
-        font-size: x-small;
+        font-size: small;
     }
 
     nav .blurrer{
-        margin-left: -8px;
-        margin-top: -21px;
-        height: 116%;
-        width: 100%;
-        -webkit-backdrop-filter: blur(4px);
-        position: absolute;
-        filter: blur(100%);
-        z-index: -500;
-        background-color: rgba(0,0,0,0.5);
+        height: 150%;
     }
+
+    button {
+        line-height: 50%;
+    }
+
+
 }
