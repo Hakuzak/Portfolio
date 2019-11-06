@@ -24,32 +24,15 @@ nav{
     width: 100%;
 }
 
-nav .blurrer{
-    margin-left: -0.5%;
-    margin-top: -0.75%;
-    height: 93%;
-    width: 100%;
-    -webkit-backdrop-filter: blur(4px);
-    position: absolute;
-    filter: blur(100%);
-    z-index: -500;
-    background-color: rgba(0,0,0,0.5);
-}
-
 
 nav ul {
     display: table;
     width: 100%;
     margin-left: -8px;
-    margin-top: -0.5%;
-
-    padding: 0;
-
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
-    0 3px 5px rgba(0, 0, 0, .2),
-    0 5px 10px rgba(0, 0, 0, .2),
-    0 20px 20px rgba(0, 0, 0, .15);
-
+    margin-top: -0.8%;
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0,0.5);
+    padding: 1% 0;
 }
 
 nav ul li{
@@ -116,6 +99,8 @@ button a {
     padding: 1%;
 }
 
+
+
 .footer{
     font-size: 15px;
     position: sticky;
@@ -143,7 +128,7 @@ button a {
     color: whitesmoke;
 }
 
-@media handheld  {
+@media screen and (max-width: 500px)  {
 
     .titre {
         font-size: 100%;
@@ -154,12 +139,15 @@ button a {
     }
 
     nav .blurrer{
-        height: 150%;
+        height: 75%;
     }
 
     button {
         line-height: 50%;
     }
 
+    #accueil {
+        padding-top: 10%;
+    }
 
 }
