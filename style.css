@@ -8,7 +8,10 @@ html{
     color: whitesmoke;
 }
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .titre {
     text-align: center;
@@ -36,7 +39,6 @@ nav{
 
 img {
     width: 10%;
-    height: auto;
 }
 
 
@@ -61,14 +63,16 @@ nav ul li a{
     color: whitesmoke;
     text-decoration: none;
     text-shadow: 0 1px 0 rgb(0, 0, 0);
+    height: 50px;
+    line-height: 50px;
 }
-
 
 nav ul li a:hover,
 nav ul li a:focus{
     background: rgba(255,255,255,.2);
 
-    padding: 8px 20%;
+    padding: 1% 0;
+    border-radius: 3px;
 
     transition: all .3s .1s;
 }
