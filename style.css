@@ -28,6 +28,21 @@ h2{
     font-size: 150%;
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li {
+    list-style: none;
+}
+
+.blank{
+    padding: 1%;
+}
+
+/*BARRE DE NAVIGATION*/
+
 nav{
     position: fixed;
     width: 100%;
@@ -61,7 +76,6 @@ nav ul li a{
     font-size: 150%;
     text-align: center;
     color: whitesmoke;
-    text-decoration: none;
     text-shadow: 0 1px 0 rgb(0, 0, 0);
     height: 50px;
     line-height: 50px;
@@ -77,6 +91,45 @@ nav ul li a:focus{
     transition: all .3s .1s;
 }
 
+/*PRESENTATION*/
+.moi {
+    font-size: xx-large;
+}
+
+.moi .photo{
+    margin-top: -5%;
+    height: 20%;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+/*COMPETENCES*/
+
+#grille_competence{
+    width: 75%;
+    padding: auto;
+    margin: auto;
+    display: grid;
+    justify-items: center;
+}
+
+#web,#bd{
+    grid-column: 1;
+}
+
+#se,#tool{
+    grid-column: 2;
+}
+
+#langage,#other{
+    grid-column: 3;
+}
+
+
+/*BOUTON*/
 
 button {
     display: block;
@@ -89,57 +142,42 @@ button {
 }
 
 button a {
-    text-decoration: none;
     color: black;
 }
 
 
-.moi .photo{
-    margin-top: -5%;
-    height: 20%;
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 100%;
-}
 
-.moi {
-    font-size: xx-large;
-}
-
-.blank{
-    padding: 1%;
-}
-
-
+/*FOOTER*/
 
 .footer{
     font-size: 15px;
-    position: sticky;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.3);
 }
 
-
-.footer .grille{
+.footer .grille_footer{
     width: 100%;
     padding: auto;
-    background-color: rgba(0,0,0,0.5);
     display: grid;
     justify-items: center;
-
 }
 
-.numero{
+#droite{
+    grid-column: 3;
+    position: relative;
+}
+
+#gauche {
     grid-column: 1;
+    position: relative;
 }
 
-.mail {
-    grid-column: 4;
-}
 
-.footer .grille .mail a {
-    color: whitesmoke;
-}
+
+
+
+
+/*RESPONSIVE*/
 
 @media screen and (max-width: 500px)  {
 
