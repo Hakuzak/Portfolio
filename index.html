@@ -15,6 +15,7 @@
         <ul>
             <li><a href="#accueil"><i class="fas fa-home"></i></a></li>
             <li><a href="#apropos">À propos</a></li>
+            <li><a href="#competence">Compétences</a></li>
             <li><a href="#projets">Projets</a></li>
             <li><a href="#cv">CV</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -26,8 +27,8 @@
     <div class="blank" id="accueil"></div>
 
 
-    <div class="moi">
-        <h1 class="titre" >
+    <div class="presentation">
+        <h1>
             Eric BONNAIRE
         </h1>
         <img src="assets/Eric_Bonnaire.jpg" class="photo" alt="Eric Bonnaire" />
@@ -39,11 +40,14 @@
 
 
     <div>
-        <h2 class="titre" >
+        <h2>
             A propos de moi
         </h2>
         <p>
-            Bla bla bla
+            Je suis Eric Bonnaire, j'ai 24 ans et j'habite à Lille.
+        </p>
+        <p>
+            Je suis actuellement étudiant en 2ème année de DUT informatique.
         </p>
     </div>
 
@@ -52,9 +56,10 @@
 
 
     <div>
-        <h2 class="titre">
+        <h2>
             Mes compétences
         </h2>
+
         <div id="grille_competence">
             <div id="web">
                 <h3>Web</h3>
@@ -100,9 +105,22 @@
 
 
     <div>
-        <h2 class="titre">
+        <h2>
             Projets
         </h2>
+
+        <div id="grille_projet">
+            <div id="site">
+                <h3>Refonte site web</h3>
+            </div>
+            <div id="bomberman">
+                <h3>Bomberman</h3>
+            </div>
+            <div id="marathon">
+                <h3>Projet marathon</h3>
+            </div>
+        </div>
+
     </div>
 
 
@@ -110,14 +128,14 @@
 
 
     <div>
-        <h2 class="titre">
+        <h2>
             CV
         </h2>
-        <a href="assets/CV.pdf" download id="download">
-            <button>
-                <i class="fas fa-file-download"></i>
-            </button>
-        </a>
+        <button>
+            <a href="assets/CV.pdf" download id="download">
+                <i class="fas fa-file-download"></i> Télécharger le CV
+            </a>
+        </button>
     </div>
 
 
@@ -128,6 +146,7 @@
         <div class="grille_footer">
             <div id="gauche">
                 <ul>
+                    <li><u>Plan du site : </u></li>
                     <li><a href="#accueil">Acceuil</a></li>
                     <li><a href="#apropos">À propos</a></li>
                     <li><a href="#projets">Projets</a></li>
@@ -137,15 +156,16 @@
             </div>
             <div id="milieu">
                 <ul>
-                    <li>Réseaux sociaux</li>
+                    <li><u>Réseaux sociaux : </u></li>
                     <li><a href="https://www.linkedin.com/in/eric-bonnaire-31914014a">LinkedIn</a></li>
                     <li><a href="https://github.com/Hakuzak">GitHub</a></li>
                 </ul>
             </div>
             <div id="droite">
-                <ul>
+                <ul id="contact">
+                    <li><u>Contact : </u></li>
                     <li>06.35.41.25.28</li>
-                    <li><a href="mailto:eric.b1311@gmail.com" id="contact"> eric.b1311@gmail.com</a></li>
+                    <li><a href="mailto:eric.b1311@gmail.com" > eric.b1311@gmail.com</a></li>
                     <li>Lille</li>
                 </ul>
             </div>
