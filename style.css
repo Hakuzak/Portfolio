@@ -131,7 +131,7 @@ nav ul li a:focus{
 /*COMPETENCES*/
 
 #grille_competence{
-    width: 95%;
+    width: 85%;
     padding: auto;
     margin: auto;
     display: grid;
@@ -145,31 +145,38 @@ nav ul li a:focus{
     margin: 50px 0 75px;
 }
 
-#web,#bd{
+#web,
+#bd{
     grid-column: 1;
     border: 0.5px solid whitesmoke;
     border-left-style: none;
     width: 100%;
 }
 
-#se,#tool{
+#se,
+#tool{
     grid-column: 2;
     border: 0.5px solid whitesmoke;
     width: 100%;
 }
 
-#langage,#other{
+#langage,
+#other{
     grid-column: 3;
     border: 0.5px solid whitesmoke;
     width: 100%;
     border-right-style: none;
 }
 
-#web,#se,#langage {
+#web,
+#se,
+#langage {
     border-top-style: none;
 }
 
-#bd,#tool,#other {
+#bd,
+#tool,
+#other{
     border-bottom-style: none;
 }
 
@@ -177,7 +184,7 @@ nav ul li a:focus{
 /*PROJET*/
 
 #grille_projet{
-    width: 95%;
+    width: 85%;
     padding: auto;
     margin: auto;
     display: grid;
@@ -186,30 +193,66 @@ nav ul li a:focus{
     text-align: center;
 }
 
-#site{
-    grid-column: 1;
-    border: 1px solid whitesmoke;
+#site,
+#bomberman,
+#marathon{
+    grid-row: 1;
+    border: 0.5px solid whitesmoke;
     width: 100%;
+    border-top-style: none;
+}
+
+#decription_site,
+#decription_bomberman,
+#decription_marathon {
+    grid-row: 2;
+    border: 0.5px solid whitesmoke;
+    width: 100%;
+}
+
+
+#decription_site:hover,
+#decription_bomberman:hover,
+#decription_marathon:hover {
+    padding : 5% 0;
+    transition : all .3s .1s
+}
+
+
+#decription_site p,
+#decription_bomberman p,
+#decription_marathon p{
+    margin: 10%;
+}
+
+#photo_site,
+#photo_bomberman,
+#photo_marathon{
+    grid-row: 3;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#site,
+#photo_site,
+#decription_site{
     border-left-style: none;
 }
 
-#bomberman{
-    grid-column: 2;
-    border: 1px solid whitesmoke;
-    width: 100%;
-
-}
-
-#marathon{
-    grid-column: 3;
-    border: 1px solid whitesmoke;
-    width: 100%;
+#marathon,
+#photo_marathon,
+#decription_marathon{
     border-right-style: none;
 }
 
-#site,#bomberman,#marathon {
-    border-top-style: none;
+.photo_projet {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
+
 
 /*BOUTON*/
 
