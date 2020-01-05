@@ -4,22 +4,210 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="icon" type="image/jpg" href="assets/Photo/Eric_Bonnaire.jpg" />
     <title>Eric Bonnaire</title>
     <meta name="description" content="Welcome on my portfolio" />
     <meta name="keywords" content="Eric, Bonnaire, Eric Bonnaire, portfolio, dévellopeur, IUT Lens, Lille" />
 </head>
+
 <body>
 
-    <nav>
-        <ul>
-            <li><a href="#accueil"><i class="fas fa-home"></i></a></li>
-            <li><a href="#apropos">À propos</a></li>
-            <li><a href="#projets">Projets</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="index.html"><img src="assets/Logo/france-flag-round-icon-64.png" class="drapeau"> </a></li>
-        </ul>
-    </nav>
+
+<nav>
+    <ul>
+        <li><a href="#accueil"><i class="fas fa-home"></i></a></li>
+        <li><a href="#apropos">About me</a></li>
+        <li><a href="#competence">Skills</a></li>
+        <li><a href="#projets">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html"><img src="assets/Logo/france-flag-round-icon-64.png" class="drapeau" alt="French" /> </a></li>
+    </ul>
+</nav>
+
+
+<div class="blank" id="accueil"></div>
+
+
+<div class="presentation">
+    <h1>
+        Eric BONNAIRE
+    </h1>
+    <img src="assets/Photo/Eric_Bonnaire.jpg" class="photo" alt="Eric Bonnaire" />
+    <p>Student in IT</p>
+</div>
+
+
+<div class="blank" id="apropos"></div>
+
+
+<div>
+    <h2>
+        About me
+    </h2>
+    <p>
+        Hi, I'm Eric Bonnaire, I'm 24 years old and I live in Lille.
+    </p>
+    <p>
+        Je suis actuellement étudiant en 2ème année de DUT informatique.
+    </p>
+</div>
+
+
+<div class="blank" id="competence"></div>
+
+
+<div>
+    <h2>
+        Skills
+    </h2>
+
+    <div id="grille_competence">
+        <div id="web">
+            <h3>Web</h3>
+            <p>
+                PHP, Laravel
+            </p>
+        </div>
+        <div id="se">
+            <h3>Operating system</h3>
+            <p>
+                MacOS, Linux, Windows
+            </p>
+        </div>
+        <div id="langage">
+            <h3>Language</h3>
+            <p>
+                Java, Python, C++
+            </p>
+        </div>
+        <div id="bd">
+            <h3>Database</h3>
+            <p>
+                MySql, Psql
+            </p>
+        </div>
+        <div id="tool">
+            <h3>Tools</h3>
+            <p>
+                Trello, Git, Slack
+            </p>
+        </div>
+        <div id="other">
+            <h3>Other</h3>
+            <p>
+                Photoshop
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div class="blank" id="projets"></div>
+
+
+<div>
+    <h2>
+        Projects
+    </h2>
+
+    <div id="grille_projet">
+        <div id="site">
+            <h3>Refonte site web</h3>
+        </div>
+        <div id="decription_site">
+            <p>
+                Le but du projet était la refonte du portail national des départements informatique d'IUT.
+                <br>
+                <br>
+                Pour ce projet en groupe de trois, nous avons utilisé de l'HTML/CSS ainsi qu'une framework qui est Material Design.
+            </p>
+        </div>
+        <div id="photo_site">
+            <img src="assets/Projet/site.png" alt="Photo du site" class="photo_projet">
+        </div>
+        <div id="bomberman">
+            <h3>Bomberman</h3>
+        </div>
+        <div id="decription_bomberman">
+            <p>
+                Le but du projet était la création d'un jeu inspiré du jeu Bombemran.
+                <br>
+                <br>
+                Pour ce projet en binome, nous avons utilisé Java ainsi que la librairie JavaFx.
+            </p>
+        </div>
+        <div id="photo_bomberman">
+            <img src="assets/Projet/bomberman.png" alt="Photo du Bomberman" class="photo_projet">
+        </div>
+        <div id="marathon">
+            <h3>Projet marathon</h3>
+        </div>
+        <div id="decription_marathon">
+            <p>
+                Le but de ce projet était la création d'un site web répertorint des séries.
+                <br>
+                <br>
+                Pour ce projet, nous étions en groupe de sept. Nous avons utilisé le langage PHP ainsi que le framework Laravel.
+            </p>
+        </div>
+        <div id="photo_marathon">
+            <img src="assets/Projet/site.png" alt="Photo du site" class="photo_projet">
+        </div>
+    </div>
+
+</div>
+
+
+<div class="blank" id="cv"></div>
+
+
+<div>
+    <h2>
+        CV
+    </h2>
+    <button>
+        <a href="assets/CV/CV.pdf" download id="download">
+            <i class="fas fa-file-download"></i> Download the CV
+        </a>
+    </button>
+</div>
+
+
+<div class="blank"></div>
+
+
+<div class="footer">
+    <div class="grille_footer">
+        <div id="gauche">
+            <ul>
+                <li><u>Sitemap : </u></li>
+                <li><a href="#accueil">Home</a></li>
+                <li><a href="#apropos">About me</a></li>
+                <li><a href="#projets">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="milieu">
+            <ul>
+                <li><u>Social network : </u></li>
+                <li><a href="https://www.linkedin.com/in/eric-bonnaire-31914014a">LinkedIn</a></li>
+                <li><a href="https://github.com/Hakuzak">GitHub</a></li>
+            </ul>
+        </div>
+        <div id="droite">
+            <ul id="contact">
+                <li><u>Contact : </u></li>
+                <li>06.35.41.25.28</li>
+                <li><a href="mailto:eric.b1311@gmail.com" > eric.b1311@gmail.com</a></li>
+                <li>Lille</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
 
 </body>
+
 </html>
