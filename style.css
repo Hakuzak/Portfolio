@@ -259,7 +259,7 @@ button {
     display: block;
     margin: 0 auto 5%;
     padding: 1% 3%;
-    font-size: 20px;
+    font-size: 150%;
     border-radius: 30px;
     background-color: cadetblue;
     border-style: none;
@@ -310,9 +310,30 @@ button {
 /*RESPONSIVE*/
 
 @media screen and (max-width: 500px)  {
-    p {
+
+    h1{
+        font-size: 90%;
+    }
+
+    h2{
+        font-size: 100%;
+    }
+
+    h3{
         font-size: 75%;
+    }
+
+    p {
+        font-size: 60%;
         text-align: center;
+    }
+
+    .presentation p {
+        font-size: 40%;
+    }
+
+    #grille_competence p {
+        font-size: 60%;
     }
 
     .titre {
@@ -328,11 +349,20 @@ button {
     }
 
     button {
-        line-height: 50%;
+        font-size: 75%;
     }
 
     #accueil {
         padding-top: 10%;
+    }
+
+    .footer {
+        font-size: 25%;
+    }
+
+    nav ul li img{
+        width: 50%;
+        height: auto;
     }
 
 }
