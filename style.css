@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-h1,h2 {
+h1,h2,h3{
     text-align: center;
     text-shadow: 1px 1px black;
 }
@@ -24,12 +24,12 @@ h1{
 }
 
 h2{
-    margin: 10% 0 10% 0;
-    font-size: 150%;
+    margin: 10% 0;
+    font-size: 175%;
 }
 
 h3{
-    font-size: 100%;
+    font-size: large;
 }
 
 p {
@@ -259,13 +259,14 @@ nav ul li a:focus{
 
 button {
     display: block;
-    margin: auto;
-    padding: 1% 3% ;
-    font-size: 30px;
+    margin: 0 auto 5%;
+    padding: 1% 3%;
+    font-size: 20px;
     border-radius: 30px;
     background-color: cadetblue;
     border-style: none;
 }
+
 
 
 /*FOOTER*/
