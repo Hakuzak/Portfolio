@@ -132,7 +132,6 @@ nav ul li a:focus{
 
 #grille_competence{
     width: 85%;
-    padding: auto;
     margin: auto;
     display: grid;
     justify-items: center;
@@ -142,13 +141,13 @@ nav ul li a:focus{
 
 #grille_competence p {
     font-size: 100%;
-    margin: 50px 0 75px;
+    margin: 15% 0 20%;
 }
 
 #web,
 #bd{
     grid-column: 1;
-    border: 0.5px solid whitesmoke;
+    border: 0.05em solid whitesmoke;
     border-left-style: none;
     width: 100%;
 }
@@ -156,14 +155,14 @@ nav ul li a:focus{
 #se,
 #tool{
     grid-column: 2;
-    border: 0.5px solid whitesmoke;
+    border: 0.05em solid whitesmoke;
     width: 100%;
 }
 
 #langage,
 #other{
     grid-column: 3;
-    border: 0.5px solid whitesmoke;
+    border: 0.05em solid whitesmoke;
     width: 100%;
     border-right-style: none;
 }
@@ -185,7 +184,6 @@ nav ul li a:focus{
 
 #grille_projet{
     width: 85%;
-    padding: auto;
     margin: auto;
     display: grid;
     justify-items: center;
@@ -197,7 +195,7 @@ nav ul li a:focus{
 #bomberman,
 #marathon{
     grid-row: 1;
-    border: 0.5px solid whitesmoke;
+    border: 0.05em solid whitesmoke;
     width: 100%;
     border-top-style: none;
 }
@@ -206,7 +204,7 @@ nav ul li a:focus{
 #decription_bomberman,
 #decription_marathon {
     grid-row: 2;
-    border: 0.5px solid whitesmoke;
+    border: 0.05em solid whitesmoke;
     width: 100%;
 }
 
@@ -280,7 +278,6 @@ button {
 
 .footer .grille_footer{
     width: 100%;
-    padding: auto;
     display: grid;
     justify-items: center;
     margin: auto;
