@@ -136,6 +136,9 @@ nav ul li img{
     font-size: 75%;
 }
 
+#apropos_div p {
+    line-height: 200%;
+}
 
 /*COMPETENCES*/
 
